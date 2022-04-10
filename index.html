@@ -12,8 +12,15 @@
   body {
     overflow: auto !important;
   }
+  body>nav {
+     display: block !important; 
+  }
 </style>
 <body>
+  <nav>
+    <a href="#/">首页</a>
+    <a href="#/nginx/day01/Nginx_day01">Nginx</a>
+  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -21,6 +28,9 @@
       repo: '',
       // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
       loadSidebar: true,
+      subMaxLevel: 2,
+      // 加载导航栏
+      loadNavbar: true
     }
   </script>
   <!-- Docsify v4 -->
