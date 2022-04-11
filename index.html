@@ -30,11 +30,27 @@
       loadSidebar: true,
       subMaxLevel: 2,
       // 加载导航栏
-      loadNavbar: true
+      loadNavbar: true,
+      // 显示封面
+      coverpage: true,
+      // 只显示封面，默认false,当为false时封面和首页一起显示
+      onlyCover: true,
+
+      search: {
+        paths: 'auto',
+        noData: {
+          '/': '没有结果!'
+        },
+        placeholder: {
+          '/': '搜索'
+        },
+        },
+
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!--   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
