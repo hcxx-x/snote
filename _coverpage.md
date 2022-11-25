@@ -8,6 +8,8 @@
 - 无需生成 html 文件
 - 众多主题
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[java基础](./javaBase/_sidebar.md)
+[springsecurity](./springboot/_sidebar.md)
 [Nginx](/nginx/day01/Nginx_day01)
 [Jenkins](/jenkins/Jenkins)
+[GitHub](https://github.com/docsifyjs/docsify/)
